@@ -1,0 +1,19 @@
+#pragma once
+
+#include "Creature.h"
+
+
+
+class Grass : public Creature {
+public:
+	//Grass();
+
+	Grass(int pos_x, int pos_y, int c_starveTime, int c_reprodRate);
+	~Grass();
+
+	void Grass::eat();
+	void Grass::move(double c_x, double c_y);
+
+private:
+	
+};
